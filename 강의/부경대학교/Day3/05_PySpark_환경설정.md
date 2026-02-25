@@ -179,7 +179,7 @@ podman logs pyspark-notebook 2>&1 | grep -oP 'token=\K[a-f0-9]+'
 
 **체크리스트:**
 
-1. ✅ **Spark Web UI(http://localhost:8080)에서 Worker가 1개 보이나요?**
+1. ✅ **Spark Web UI(http://localhost:8080) 에서 Worker가 1개 보이나요?**
 
 <details><summary> Live 확인 </summary>
 
@@ -187,7 +187,7 @@ podman logs pyspark-notebook 2>&1 | grep -oP 'token=\K[a-f0-9]+'
 
 </details>
 
-2. ✅ **Jupyter Notebook(http://localhost:8888)에 접속할 수 있나요?**
+2. ✅ **Jupyter Notebook(http://localhost:8888) 에 접속할 수 있나요?**
    - 토큰을 입력하여 로그인 성공
    - 새 노트북을 생성할 수 있음
 
